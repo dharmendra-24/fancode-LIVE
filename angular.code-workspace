@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../angular"
+		},
+		{
+			"name": "fancode",
+			"path": "."
+		}
+	],
+	"settings": {}
+}

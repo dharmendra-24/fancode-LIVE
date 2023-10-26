@@ -1,0 +1,40 @@
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.carousel-items {
+    display: flex;
+    transition: transform 0.5s;
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.carousel-item.active {
+    transform: translateX(0);
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.carousel-control.prev {
+    left: 0;
+}
+
+.carousel-control.next {
+    right: 0;
+}
